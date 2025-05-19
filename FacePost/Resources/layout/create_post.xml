@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:background="?android:attr/colorPrimary"
+        android:minHeight="?android:attr/actionBarSize"
+        android:theme="@style/AppTheme.ToolBarOverlay"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        android:elevation="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:background="@drawable/curvededges">
+        
+            <ImageView
+                android:id="@+id/newPostImage"
+                android:src="@drawable/placeholder"
+                android:scaleType="centerCrop"
+                android:layout_margin="1dp"
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        
+        </RelativeLayout>
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="5dp"
+            android:text="What's on your mind?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/postEditText"
+            android:gravity="start"
+            android:padding="5dp"
+            android:background="@drawable/curvededges_white"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:inputType="textMultiLine" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/submitButton"
+                android:background="@drawable/curvededges_blue"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:textAllCaps="false"
+                android:text="Submit Post"/>
+        
+        </RelativeLayout>
+
+
+        </LinearLayout>
+
+</LinearLayout>
