@@ -1,5 +1,5 @@
 # FacePost - A practice project
-This is a practice project i made to learn Firebase and Xamarin Android on my 4th semester at Interaction Design - Aalborg University.
+This is a practice project I made to learn Firebase and Xamarin Android on my 4th semester at Interaction Design - Aalborg University.
 I followed a course on Udemy by Uchenna Nnodim, which can be found here: https://www.udemy.com/course/xamarin-android-app-with-cshap/?couponCode=CP130525
 
 
